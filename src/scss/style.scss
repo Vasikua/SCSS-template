@@ -1,1 +1,10 @@
 @use "reset";
+@use "utils/variables";
+@use "utils/mixins";
+
+.button {
+    @include mixins.button();
+
+    padding: 10px + variables.$smallRadius;
+    border-radius: variables.$smallRadius;
+}

@@ -1,0 +1,8 @@
+$smallRadius: 6px; // оголошуємо змінні
+$largeRadius: 12px;
+
+// utils/_mixins.scss
+@mixin button() {
+    font-size: 14px;
+    background-color: teal;
+}
